@@ -33,8 +33,7 @@ public class c3_escapeSequences {
         //  \': prints single quote
         System.out.println("Today is \'Tuesday \' .");
         System.out.println("Today is 'Tuesday' . ");
-
-
+        
 
     }
 
