@@ -69,7 +69,7 @@ public class c5_arrays3 {
         }
         System.out.println(Arrays.toString(newList));
 
-
+//github deneme
 
 
 
