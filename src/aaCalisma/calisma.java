@@ -51,6 +51,15 @@ consule output should be same order as given below
         for(String ogrenci: ogrenciler) {
             System.out.println(ogrenci);
         }
+        int lenght=100;
+        int sum=0;
+        for (int i=0;i<=lenght;i++){
+            if (i%2!=0){
+                System.out.println(i);
+                sum+=i;
+            }
+        }                System.out.println("odd sum"+sum);
+
 
 
 

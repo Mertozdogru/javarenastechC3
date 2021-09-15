@@ -55,3 +55,8 @@ public class c1_doWhileLoop {
     }
 
 }
+//to open excisting different project in the intelije
+//file open recent or
+// file open
+// in windows c - users - yourcomputername-ideaprojects
+//in mac  users-yourcomputername-ideaprocjets

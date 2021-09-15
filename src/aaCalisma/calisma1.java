@@ -1,5 +1,7 @@
 package aaCalisma;
 
+import java.util.Scanner;
+
 public class calisma1 {
     public static void main(String[] args) {
         String[] ogrenciler = new String[5];
@@ -50,8 +52,23 @@ public class calisma1 {
         String mert="mert";
         String mert2="anil";
         System.out.println(mert.concat(" "+ mert2));
+        Scanner merdo=new Scanner(System.in);
+        System.out.println("Number");
+        int nmber= merdo.nextInt();
+for (int i=nmber;i>=1;i--){
+    for (int k=1;k<=i;k++){
+        System.out.print("*");
 
-
-
+    }
+    System.out.println();
+}
+        System.out.println("************************");
+int number=4;
+for (int a=1;a<=number;a++){
+    for (int b=1;b<=a;b++){
+        System.out.print("*");
+    }
+    System.out.println();
+}
     }
 }
