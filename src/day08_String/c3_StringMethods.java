@@ -40,7 +40,7 @@ trim()               Removes whitespace from both ends of a string              
         //01234
         //index numbers always starts from 0 in the java
 
-        char letter0=str.charAt(0); //H
+        char letter0 = str.charAt(0); //H
         System.out.println(letter0);
         System.out.println(str.charAt(3)); //l
 
@@ -48,21 +48,21 @@ trim()               Removes whitespace from both ends of a string              
         //System.out.println(ch);//StringIndexOutOfBoundsException String index out of range: 5
         //beacuae our range is between 0-4
 
-        String word="hello world";
+        String word = "hello world";
         //012345678910
         System.out.println("wordchar5 is : " + word.charAt(5));
 
 
         //concat()           Appends a string to the end of another string                        String
         //
-        String firstName="Basoz";
-        String lastName="Rafiq";
+        String firstName = "Basoz";
+        String lastName = "Rafiq";
 
         System.out.println(firstName + " " + lastName);
         System.out.println(firstName.concat(" " + lastName));
         System.out.println(firstName.concat(" ").concat(lastName));
 
-        String fullName = firstName.concat( " ").concat(lastName);
+        String fullName = firstName.concat(" ").concat(lastName);
         System.out.println(fullName);
 
         System.out.println("*************");
@@ -71,14 +71,14 @@ trim()               Removes whitespace from both ends of a string              
         //System.out.println(fullName.concat(letter0)); // Basoz RafiqH
         //concat method will only accept string
         //i cant concat other then string
-        System.out.println(fullName.concat(""+letter0));//Basoz RafiqH  //text + letter == text
+        System.out.println(fullName.concat("" + letter0));//Basoz RafiqH  //text + letter == text
 
-        int score=90;
-        System.out.println(fullName.concat(" ").concat(""+ score));
+        int score = 90;
+        System.out.println(fullName.concat(" ").concat("" + score));
 
         //basoz rafiq score is 90
         System.out.println(
-                firstName.concat(" ").concat(lastName).concat(" ").concat("score is : ").concat(""+score));
+                firstName.concat(" ").concat(lastName).concat(" ").concat("score is : ").concat("" + score));
 
         //contains()      Checks whether a string contains a sequence of characters           boolean
 
@@ -86,14 +86,14 @@ trim()               Removes whitespace from both ends of a string              
         //if string contains it will return true
         //if string doesnt contains it will return false
 
-        String sentence="Java dsd kjllk2342@#  ";
+        String sentence = "Java dsd kjllk2342@#  ";
         System.out.println(sentence.contains("a"));
         System.out.println(sentence.contains("A"));
         System.out.println(sentence.contains("Ja"));
         System.out.println(sentence.contains("Ja "));//false there is no Ja(space) inside the sentence
         System.out.println(sentence.contains("va "));//
 
-        boolean example=sentence.contains(" ");
+        boolean example = sentence.contains(" ");
         System.out.println(example);
 
         System.out.println("********************");
@@ -102,7 +102,7 @@ trim()               Removes whitespace from both ends of a string              
         // if your string ends with given condition it will be true
         // if it is not then you will have false
 
-        String sentence2="Hello World Java 47";
+        String sentence2 = "Hello World Java 47";
         System.out.println(sentence2.endsWith("7"));
         System.out.println(sentence2.endsWith("47"));
         System.out.println(sentence2.endsWith(" 47"));
@@ -110,5 +110,8 @@ trim()               Removes whitespace from both ends of a string              
         System.out.println(sentence2.endsWith("Hello World Java 47"));
         System.out.println(sentence2.endsWith("JavA 47"));
 
+
+
+
+        }
     }
-}
