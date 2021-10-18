@@ -12,12 +12,20 @@ package aaCalisma;
 //                attributes: brand, model, price, country
 //                methods: call, text,  toString
 
-public class constroc {
-    public void device(){
-String brand;
-String model;
-Double price;
-String country;
+public class Device {
+    String brand;
+    String model;
+    Double price;
+    String country;
+public Device(String brand,String model,Double price,String country){
+    this.brand=brand;
+    this.model=model;
+    this.price=price;
+    this.country=country;
 
-    }
 }
+    public String toString(){
+        return brand+" + "+model+" + "+price+" + "+country;
+    }
+    }
+
